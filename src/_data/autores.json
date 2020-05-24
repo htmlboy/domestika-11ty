@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "John",
+    "apellido": "Smith",
+    "imagen": "http://placekitten.com/30/30"
+  },
+  {
+    "nombre": "Lorena",
+    "apellido": "Ipsum",
+    "imagen": "http://placekitten.com/30/30"
+  },
+  {
+    "nombre": "Javier",
+    "apellido": "Usobiaga",
+    "imagen": "http://placekitten.com/30/30"
+  }
+]

@@ -1,0 +1,12 @@
+{% include "./header.njk" %}
+
+  <div class="container">
+
+    {{ content | safe }}
+
+  </div>
+
+  {% set navegacionStatus = "en la home" %}
+  {% include "./nav.njk" %}
+
+{% include "./footer.njk" %}

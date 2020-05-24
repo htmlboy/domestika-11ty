@@ -1,0 +1,28 @@
+{
+  "name": "domestika11ty",
+  "version": "1.0.0",
+  "description": "Un starter para 11ty basado en Deventy",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "eleventy:default": "npx eleventy",
+    "eleventy:watch": "npx eleventy --watch",
+    "serve": "light-server -c .lightserverrc",
+    "dev": "npm-run-all clean eleventy:default --parallel eleventy:watch serve --print-label",
+    "build": "run-s clean eleventy:default --print-label"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.1.5",
+    "light-server": "2.6.4"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

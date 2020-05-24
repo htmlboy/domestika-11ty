@@ -1,0 +1,15 @@
+{
+ "port": 4000,
+ "serve": "dist",
+ "bind": "localhost",
+ "delay": 100,
+ "quiet": true,
+ "watchexps": [
+    "src/assets/scripts/**/*.js",
+    "src/asets/styles/**/*.css # reloadcss",
+    "dist/**/*.html",
+    "src/assets/images/"
+ ],
+ "http2": false,
+ "open": false
+}
