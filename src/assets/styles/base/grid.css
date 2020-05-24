@@ -1,0 +1,20 @@
+body {
+  display: grid;
+  grid-template-columns: var(--grid-xl);
+  grid-template-rows: auto 1fr auto;
+  grid-gap: var(--grid-gap);
+  padding-left: var(--body-padding);
+  padding-right: var(--body-padding);
+}
+
+.header {
+  grid-column: 1 / -1;
+}
+
+.content {
+  grid-column: 1 / -1;
+}
+
+.footer {
+  grid-column: 1 / -1;
+}

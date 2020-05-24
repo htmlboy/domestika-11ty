@@ -1,0 +1,11 @@
+.header {
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  margin-left: calc(var(--body-padding) * -1);
+  margin-right: calc(var(--body-padding) * -1);
+  padding-left: var(--body-padding);
+  padding-right: var(--body-padding);
+  padding-top: var(--spacer-m);
+  padding-bottom: var(--spacer-m);
+}

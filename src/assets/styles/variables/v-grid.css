@@ -1,0 +1,6 @@
+html {
+  --maxwidth: 1440px;
+  --grid-xl: repeat(12, minmax(0, 1fr));
+  --grid-gap: 20px;
+  --body-padding: 20px;
+}

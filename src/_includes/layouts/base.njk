@@ -1,11 +1,12 @@
-{% include "./header.njk" %}
+{% include "./general/head.njk" %}
 
-  {% include "./nav.njk" %}
+{% include "./general/header.njk" %}
 
-  <div class="container">
+<div class="content">
 
-    {{ content | safe }}
+  {{ content | safe }}
 
-  </div>
+</div>
 
-{% include "./footer.njk" %}
+{% include "./general/footer.njk" %}
+
