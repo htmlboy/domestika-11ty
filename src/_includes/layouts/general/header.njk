@@ -1,14 +1,18 @@
 <div class="header">
 
-  {% set navPages = collections.all | eleventyNavigation %}
-  <div class="nav">
-    {%- for elemento in navPages %}
-      <a href="{{ elemento.url | url }}"
-        {% if elemento.url == page.url %} class="active"{% endif %}
-      >
-        {{ elemento.title }}
-      </a>
-    {%- endfor %}
+  <div class="container grid">
+
+    {% set navPages = collections.all | eleventyNavigation %}
+    <div class="nav col-12">
+      {%- for elemento in navPages %}
+        <a href="{{ elemento.url | url }}"
+          {% if elemento.url == page.url %} class="active"{% endif %}
+        >
+          {{ elemento.title }}
+        </a>
+      {%- endfor %}
+    </div>
+
   </div>
 
 </div>

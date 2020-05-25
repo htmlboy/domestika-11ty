@@ -8,6 +8,7 @@
 @import url("base/reset.css");
 @import url("base/typography.css");
 @import url("base/grid.css");
+@import url("base/grid-cols.css");
 
 /* Libraries */
 @import url("libraries/animate.css");

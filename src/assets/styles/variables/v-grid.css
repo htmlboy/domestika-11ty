@@ -1,6 +1,37 @@
 html {
   --maxwidth: 1440px;
-  --grid-xl: repeat(12, minmax(0, 1fr));
+  --grid-main: repeat(12, minmax(0, 1fr));
   --grid-gap: 20px;
-  --body-padding: 20px;
+  --container-padding: 20px;
+}
+
+@media (max-width: 900px) {
+  html {
+    --grid-main: repeat(10, minmax(0, 1fr));
+    --grid-gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    --grid-main: repeat(8, minmax(0, 1fr));
+    --grid-gap: 15px;
+    --container-padding: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    --grid-main: repeat(6, minmax(0, 1fr));
+    --grid-gap: 10px;
+    --container-padding: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    --grid-main: repeat(4, minmax(0, 1fr));
+    --grid-gap: 10px;
+    --container-padding: 10px;
+  }
 }
