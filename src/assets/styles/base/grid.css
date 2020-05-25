@@ -16,5 +16,5 @@ body {
   display: grid;
   grid-template-columns: var(--grid-main);
   grid-auto-rows: min-content;
-  grid-gap: var(--grid-gap);
+  grid-gap: 0 var(--grid-gap);
 }
