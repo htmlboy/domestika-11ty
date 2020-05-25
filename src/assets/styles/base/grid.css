@@ -15,5 +15,6 @@ body {
 .grid {
   display: grid;
   grid-template-columns: var(--grid-main);
+  grid-auto-rows: min-content;
   grid-gap: var(--grid-gap);
 }
