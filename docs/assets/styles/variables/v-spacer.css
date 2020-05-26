@@ -1,0 +1,10 @@
+html {
+  /* Variables de espaciado */
+  --spacer-2xs: 2px;
+  --spacer-xs: 5px;
+  --spacer-s: 10px;
+  --spacer-m: 20px;
+  --spacer-l: 40px;
+  --spacer-xl: 80px;
+  --spacer-2xl: 160px;
+}
