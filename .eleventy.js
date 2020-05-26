@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   return {
-    dir: { input: "src", output: "docs", data: "_data" },
+    dir: { input: "src", output: "dist", data: "_data" },
     passthroughFileCopy: true,
     templateFormats: ["njk", "md", "css", "html", "yml"],
     htmlTemplateEngine: "njk",
