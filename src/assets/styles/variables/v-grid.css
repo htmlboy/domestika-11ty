@@ -1,17 +1,19 @@
+/* Default - Desktop */
 html {
   --maxwidth: 1440px;
   --grid-main: repeat(12, minmax(0, 1fr));
   --grid-gap: 20px;
   --container-padding: 20px;
 }
-
-@media (max-width: 900px) {
+/* Size: md */
+max-width: 900px) {
   html {
     --grid-main: repeat(10, minmax(0, 1fr));
     --grid-gap: 20px;
   }
 }
 
+/* Size: sm */
 @media (max-width: 700px) {
   html {
     --grid-main: repeat(8, minmax(0, 1fr));
@@ -20,6 +22,7 @@ html {
   }
 }
 
+/* Size: xs */
 @media (max-width: 500px) {
   html {
     --grid-main: repeat(6, minmax(0, 1fr));
@@ -28,6 +31,7 @@ html {
   }
 }
 
+/* Size: xxs */
 @media (max-width: 320px) {
   html {
     --grid-main: repeat(4, minmax(0, 1fr));
