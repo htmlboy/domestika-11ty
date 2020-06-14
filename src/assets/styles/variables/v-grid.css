@@ -6,7 +6,7 @@ html {
   --container-padding: 20px;
 }
 /* Size: md */
-max-width: 900px) {
+@media (max-width: 900px) {
   html {
     --grid-main: repeat(10, minmax(0, 1fr));
     --grid-gap: 20px;
